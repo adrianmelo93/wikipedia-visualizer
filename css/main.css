@@ -1,0 +1,27 @@
+body {
+  background-color: #20B2AA;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.center {
+  text-align: center;
+  margin-top: 30px;
+
+}
+#searchBox {
+  font-size: 15px;
+  text-align: center;
+  border-radius: 30px;
+}
+#searchButton:hover {
+    background-color: red;
+
+}
+#searchButton {
+  border-radius: 20px;
+}
+div {
+    box-shadow: 10px 10px 5px #888888;
+}
