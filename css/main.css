@@ -12,16 +12,27 @@ h1 {
 }
 #searchBox {
   font-size: 15px;
-  text-align: center;
+  display: block;
+  margin: auto;
   border-radius: 30px;
 }
 #searchButton:hover {
     background-color: red;
 
+
 }
 #searchButton {
   border-radius: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
 div {
     box-shadow: 10px 10px 5px #888888;
+}
+
+.article {
+  max-width: 800px;
+  display: block;
+  margin: auto;
 }
