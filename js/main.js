@@ -24,6 +24,7 @@ $(document).ready(function() {
                 // append each article to the DOM using jquery's .append() method
                 // append only one time, if you can figure out how. The less DOM
                 // manipulation, the better
+
             }
         });
     }
@@ -51,6 +52,7 @@ $(document).ready(function() {
     // the value of the search box as a parameter to the getArticles function
     $('#searchButton').on('click', function() {
       // code here
+      $('#articlesContainer').html('');
       var searchTerm = $('#searchBox').val();
       getArticles(searchTerm);
     });
@@ -64,7 +66,9 @@ $(document).ready(function() {
     // function
     $("#searchBox").on("keypress", function(event) {
       // code here
+
         if (event.keyCode === 13) {
+          $('#articlesContainer').html('');
           var searchTerm = $('#searchBox').val();
           getArticles(searchTerm);
         }
